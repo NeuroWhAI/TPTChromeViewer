@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html>
+  <head>
+    <base target="_blank"> <!-- 이게 있어야 링크를 클릭하면 탭이 새로 열림 -->
+    <title>Chrome App Study</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        min-width: 220px;
+      }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    ID: <input type="text" id="tpt_id" value="" style="width: 60px;" />
+    <button id="button_load">Load</button>
+    <a id="download_link" hidden="true">Download</a>
+    <br>
+    Link: <a id="tpt_link">Loading...</a>
+    <img id="tpt_img"></img>
+  </body>
+</html>
